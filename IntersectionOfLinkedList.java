@@ -9,6 +9,8 @@
  *     }
  * }
  */
+//TC o(m+n)
+//SC o(1)
 public class IntersectionOfLinkedList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) return null;
